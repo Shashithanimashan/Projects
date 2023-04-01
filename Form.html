@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>   
+</head>
+<body>
+    <h1>Application For Advanced Level</h1>
+    <form>
+        <div class="input-element">
+          <label for="full name">Full Name</label>
+          <input id="name" type="text" name="full name" placeholder="Full Name" required />
+        </div>
+        <br>
+            <div class="input-element">
+              <label for="Address">Address</label>
+              <input id="Address" type="text" name="Address" placeholder="Address" required />
+            </div>
+            <br>
+            <div class="input-element">
+                <label for="">Date Of Birth</label>
+                <input id="Date Of Birth" type="DATE" name="Date Of Birth"  required />
+              </div>
+            <br>
+            <div class="input-element">
+                <label for="">Gender</label>
+                <input id="Gender" type="radio" name="Gender" aria-valuemax="Male" />Male
+                <input id="Gender" type="radio" name="Gender" aria-valuemax="Female" required />Female
+                <input id="Gender" type="radio" name="Gender" aria-valuemax="Others" /> Others
+              </div>
+            <br>
+            <div class="input-element">
+                <label for="Medium">Medium</label>
+                <select id="Medium" name="Medium" >
+                    <option value="Display"Selected>Select Medium</option>
+                    <option value="Sinhala">Sinhala</option>
+                    <option value="English">English</option>
+                    <option value="Tamli">Tamlil</option>
+                  </select>
+              </div>
+              <br>
+              <div class="input-element">
+                
+                <input type = "file" name = "fileupload" accept = "image/*" />
+             </div>
+             <br>
+             <div class="input-element" id="menue" >
+                <input type = "submit" name = "submit" value = "Submit"  />
+                <input type = "reset" name = "reset"  value = "Reset" />
+                <input type = "button" name = "ok" value = "OK" />
+            </div>
+</body>
+
+</html>
